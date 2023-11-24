@@ -1,0 +1,29 @@
+/* 
+
+scroll up button
+
+*/
+#scroll-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none;
+}
+
+.scroll-up-link {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 24px;
+  width: 400px;
+  height: 400px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  text-decoration: none;
+  display: block;
+}
+
+.scroll-up-link:hover {
+  background-color: #0056b3;
+}
